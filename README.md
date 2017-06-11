@@ -1,5 +1,7 @@
 # rsync-over-ssh
 
+[![Build Status](https://travis-ci.org/werekraken/docker-rsync-over-ssh.svg?branch=master)](https://travis-ci.org/werekraken/docker-rsync-over-ssh)
+
 ## Overview
 
 Dockerfile for rsync over ssh.

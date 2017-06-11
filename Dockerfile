@@ -2,6 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Matt Cover <werekraken@gmail.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    net-tools \
     openssh-server \
     rsync \
   && rm -rf /var/lib/apt/lists/*

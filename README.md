@@ -1,4 +1,3 @@
-docker run -d -v `pwd`/rsync:/rsync -v `pwd`/authorized_keys:/etc/ssh/rsync/authorized_keys -p 2225:22 6fbdf43be4aa
 # rsync-over-ssh
 
 ## Overview
